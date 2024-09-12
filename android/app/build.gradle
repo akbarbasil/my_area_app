@@ -24,7 +24,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.basilcreations.weather_app"
+    namespace = "com.basilcreations.my_area_app"
     compileSdk = 34//flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
