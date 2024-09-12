@@ -1,0 +1,57 @@
+name: weather_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  http:
+  get:
+  intl:
+  geolocator:
+  cached_network_image:
+  flutter_dotenv:
+  google_fonts:
+  fluttertoast:
+  flutter_spinkit:
+# RUN THIS COMMAND TO CHANGE ----> APP & PACKAGE NAME
+# flutter pub global activate rename
+# rename setAppName --targets ios,android,web,windows --value "My Area"
+# rename setBundleId --targets ios,android,web,windows --value "com.basilcreations.myarea"
+  rename:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons:
+
+# flutter pub run flutter_launcher_icons:main
+flutter_icons:
+  android: "app_icon"
+  ios: true
+  web:
+    generate: true
+  windows:
+    generate: true
+  remove_alpha_ios: true
+  image_path: "assets/app_icon.png"
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  flutter_lints: ^3.0.0
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
