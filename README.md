@@ -1,16 +1,12 @@
-# weather_app
+# My Area
 
-A new Flutter project.
+A simple and modern weather application built with Flutter that provides real-time weather updates based on the user's location. The app displays current weather conditions, temperatures, wind speed, and more, with a clean and attractive user interface.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🌦 **Real-Time Weather Information**: Get current weather conditions, temperature, humidity, wind speed, and more.
+- 📍 **Location-Based Weather**: Automatically fetches weather data based on the user's location.
+- 🎨 **Modern and Attractive UI**: A clean and intuitive user interface with animated weather icons.
+- 🔄 **Smooth Animations**: Custom animations for loading states and transitions.
+- 🗺 **Supports Multiple Locations**: Search and display weather information for different cities.
+- 🕒 **Updated Time and Date**: Shows the current date and time along with the weather data.
